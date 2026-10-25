@@ -1,0 +1,19 @@
+# Simplified action-level GRPO, with no reference-policy KL (beta = 0).
+algorithm = "grpo"
+seed = 0
+iterations = 200
+batch_size = 32
+group_size = 4
+learning_rate = 1.0
+update_epochs = 4
+clip_ratio = 0.2
+entropy_coef = 0.01
+gamma = 1.0
+max_grad_norm = 1.0
+
+# Environment and held-out evaluation.
+max_steps = 4
+tool_cost = 0.05
+train_tasks = 256
+eval_tasks = 256
+eval_interval = 20

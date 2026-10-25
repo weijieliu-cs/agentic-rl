@@ -1,0 +1,2 @@
+# CPU experiments, Python 3.11+.
+numpy==2.4.6

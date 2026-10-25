@@ -1,0 +1,17 @@
+algorithm = "reinforce"
+seed = 0
+iterations = 300
+batch_size = 64
+group_size = 1
+learning_rate = 1.0
+update_epochs = 1
+entropy_coef = 0.01
+gamma = 1.0
+baseline_decay = 0.9
+max_grad_norm = 1.0
+
+max_steps = 4
+tool_cost = 0.05
+train_tasks = 256
+eval_tasks = 256
+eval_interval = 30
